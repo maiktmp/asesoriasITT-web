@@ -1,0 +1,16 @@
+INSERT INTO asesoriasitt.carrier (id, name) VALUES (1, 'Ing. Idustrial');
+INSERT INTO asesoriasitt.carrier (id, name) VALUES (2, 'Ing. Logiística');
+INSERT INTO asesoriasitt.carrier (id, name) VALUES (3, 'Ing. Sistemas');
+INSERT INTO asesoriasitt.carrier (id, name) VALUES (4, 'Ing. Química');
+INSERT INTO asesoriasitt.carrier (id, name) VALUES (5, 'Ing. Mecatrónica');
+INSERT INTO asesoriasitt.carrier (id, name) VALUES (6, 'T.I.C.S');
+INSERT INTO asesoriasitt.carrier (id, name) VALUES (7, 'Ing. Electrónica');
+INSERT INTO asesoriasitt.day (id, name) VALUES (1, 'Lunes');
+INSERT INTO asesoriasitt.day (id, name) VALUES (2, 'Martes');
+INSERT INTO asesoriasitt.day (id, name) VALUES (3, 'Miercoles');
+INSERT INTO asesoriasitt.day (id, name) VALUES (4, 'Jueves');
+INSERT INTO asesoriasitt.day (id, name) VALUES (5, 'Viernes');
+INSERT INTO asesoriasitt.migrations (id, migration, batch) VALUES (1, '2019_10_23_023129_create_schema', 1);
+INSERT INTO asesoriasitt.rol (id, name) VALUES (1, 'Administrador');
+INSERT INTO asesoriasitt.rol (id, name) VALUES (2, 'Profesor');
+INSERT INTO asesoriasitt.rol (id, name) VALUES (3, 'Alumno');
